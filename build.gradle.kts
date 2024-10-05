@@ -97,7 +97,7 @@ subprojects {
         publications {
             create<MavenPublication>("mavenJava") {
                 from(components["java"])
-                groupId = "com.telegram4j"
+                groupId = "io.github.shoaky009"
                 artifactId = archiveBaseName
 
                 versionMapping {
